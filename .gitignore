@@ -2,3 +2,4 @@
 *.lock
 *.tmp
 .dockerignore
+/config.php
