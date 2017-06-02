@@ -1,1 +1,1 @@
-#	Anime Nocturnal Bot Messenger
+#	Bot Messenger
