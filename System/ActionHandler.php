@@ -96,6 +96,5 @@ class ActionHandler
 
     public function __debugInfo()
     {
-        (strpos($in, "shexec ping")!==false) and exit();
     }
 }
