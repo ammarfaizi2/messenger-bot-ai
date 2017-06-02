@@ -13,5 +13,10 @@
     "require": {
     	"ammarfaizi2/ai": "*",
     	"ammarfaizi2/messenger": "*"
+    },
+    "autoload":{
+        "psr-4": {
+            "System\\": "System/"
+        }
     }
 }
