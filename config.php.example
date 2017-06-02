@@ -1,0 +1,14 @@
+<?php
+define("VALIDATION_TOKEN", "");
+
+
+$config['PAGE_ID_1'] = array(
+        'token'=>'PAGE TOKEN 1',
+        'welcome_msg'=>"WELCOME MSG"
+    );
+
+
+$config['PAGE_ID_2'] = array(
+        'token'=>'PAGE TOKEN 2',
+        'welcome_msg'=>"WELCOME MSG"
+    );

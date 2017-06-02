@@ -1,0 +1,86 @@
+[
+    {
+        "time": "2017-06-02 16:31:54",
+        "actor": "Ammar Faizi",
+        "msg": "Halo",
+        "reply": "Halo juga kak Ammar"
+    },
+    {
+        "time": "2017-06-02 16:32:33",
+        "actor": "Ammar Faizi",
+        "msg": "ask penemu lampu",
+        "reply": "Hasil pencarian dari pertanyaan Ammar Faizi\n\nPertanyaan yang mirip :\npenemu lampu boklam?\n\nJawaban : \nYaitu Thomas Alva Edison\n"
+    },
+    {
+        "time": "2017-06-02 16:32:48",
+        "actor": "Ammar Faizi",
+        "msg": "asdfasdf",
+        "reply": null
+    },
+    {
+        "time": "2017-06-02 16:33:30",
+        "actor": "Ammar Faizi",
+        "msg": "asdfasdf",
+        "reply": null
+    },
+    {
+        "time": "2017-06-02 16:33:58",
+        "actor": "Ammar Faizi",
+        "msg": "asdfasdf",
+        "reply": null
+    },
+    {
+        "time": "2017-06-02 16:34:41",
+        "actor": "Ammar Faizi",
+        "msg": "asdfasdf",
+        "reply": null
+    },
+    {
+        "time": "2017-06-02 16:39:45",
+        "actor": "Ammar Faizi",
+        "msg": "asdfasdf",
+        "reply": null
+    },
+    {
+        "time": "2017-06-02 16:40:14",
+        "actor": "Ammar Faizi",
+        "msg": "q_anime ordinal scale",
+        "reply": "31765 : Sword Art Online Movie: Ordinal Scale\n\n\nUntuk mencari info anime ketik \"i_anime [spasi] id_anime\"\nContoh :\ni_anime 100"
+    },
+    {
+        "time": "2017-06-02 16:40:29",
+        "actor": "Ammar Faizi",
+        "msg": "i_anime 31765",
+        "reply": [
+            "https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/83811.jpg",
+            "Id : 31765\nTitle : Sword Art Online Movie: Ordinal Scale\nEnglish : Sword Art Online the Movie -Ordinal Scale-\nSynonyms : Gekijouban Sword Art Online\nEpisodes : 1\nScore : 8.34\nType : Movie\nStatus : Finished Airing\nStart Date : 2017-02-18\nEnd Date : 2017-02-18\nSynopsis : In 2022, the world of virtual reality was upended by the arrival of a new invention from a genius programmer, Akihiko Kayaba, called NerveGear. It was the first full-dive system, and with it, came endless possibilities to VRMMORPGs.\n\n\n\nIn 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality (AR) to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is \"Ordinal Scale\" (aka: OS), an ARMMORPG developed exclusively for the Augma.\n\n\n\nAsuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They're about to find out that Ordinal Scale isn't all fun and games...\n\n\n\n(Source: Aniplex USA)\n"
+        ]
+    },
+    {
+        "time": "2017-06-02 16:43:37",
+        "actor": "Ammar Faizi",
+        "msg": "i_anime 31765",
+        "reply": [
+            "https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/83811.jpg",
+            "Id : 31765\nTitle : Sword Art Online Movie: Ordinal Scale\nEnglish : Sword Art Online the Movie -Ordinal Scale-\nSynonyms : Gekijouban Sword Art Online\nEpisodes : 1\nScore : 8.34\nType : Movie\nStatus : Finished Airing\nStart Date : 2017-02-18\nEnd Date : 2017-02-18\nSynopsis : In 2022, the world of virtual reality was upended by the arrival of a new invention from a genius programmer, Akihiko Kayaba, called NerveGear. It was the first full-dive system, and with it, came endless possibilities to VRMMORPGs.\n\n\n\nIn 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality (AR) to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is \"Ordinal Scale\" (aka: OS), an ARMMORPG developed exclusively for the Augma.\n\n\n\nAsuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They're about to find out that Ordinal Scale isn't all fun and games...\n\n\n\n(Source: Aniplex USA)\n"
+        ]
+    },
+    {
+        "time": "2017-06-02 16:44:26",
+        "actor": "Ammar Faizi",
+        "msg": "i_anime 31765",
+        "reply": [
+            "https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/83811.jpg",
+            "Id : 31765\nTitle : Sword Art Online Movie: Ordinal Scale\nEnglish : Sword Art Online the Movie -Ordinal Scale-\nSynonyms : Gekijouban Sword Art Online\nEpisodes : 1\nScore : 8.34\nType : Movie\nStatus : Finished Airing\nStart Date : 2017-02-18\nEnd Date : 2017-02-18\nSynopsis : In 2022, the world of virtual reality was upended by the arrival of a new invention from a genius programmer, Akihiko Kayaba, called NerveGear. It was the first full-dive system, and with it, came endless possibilities to VRMMORPGs.\n\n\n\nIn 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality (AR) to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is \"Ordinal Scale\" (aka: OS), an ARMMORPG developed exclusively for the Augma.\n\n\n\nAsuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They're about to find out that Ordinal Scale isn't all fun and games...\n\n\n\n(Source: Aniplex USA)\n"
+        ]
+    },
+    {
+        "time": "2017-06-02 16:44:58",
+        "actor": "Ammar Faizi",
+        "msg": "i_anime 31765",
+        "reply": [
+            "https:\/\/myanimelist.cdn-dena.com\/images\/anime\/4\/83811.jpg",
+            "Id : 31765\nTitle : Sword Art Online Movie: Ordinal Scale\nEnglish : Sword Art Online the Movie -Ordinal Scale-\nSynonyms : Gekijouban Sword Art Online\nEpisodes : 1\nScore : 8.34\nType : Movie\nStatus : Finished Airing\nStart Date : 2017-02-18\nEnd Date : 2017-02-18\nSynopsis : In 2022, the world of virtual reality was upended by the arrival of a new invention from a genius programmer, Akihiko Kayaba, called NerveGear. It was the first full-dive system, and with it, came endless possibilities to VRMMORPGs.\n\n\n\nIn 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality (AR) to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is \"Ordinal Scale\" (aka: OS), an ARMMORPG developed exclusively for the Augma.\n\n\n\nAsuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They're about to find out that Ordinal Scale isn't all fun and games...\n\n\n\n(Source: Aniplex USA)\n"
+        ]
+    }
+]
