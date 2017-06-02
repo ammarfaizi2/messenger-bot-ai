@@ -45,7 +45,7 @@ class ActionHandler
 	 *
 	 * @param	array	$this->config
 	 */
-	public function __construct($this->config)
+	public function __construct($config)
 	{
 		Messenger::setupWebhook(VALIDATION_TOKEN);
 		defined('data') or define('data',__DIR__ . '/data');
