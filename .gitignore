@@ -3,3 +3,4 @@
 *.tmp
 .dockerignore
 /config.php
+/nic.zip
