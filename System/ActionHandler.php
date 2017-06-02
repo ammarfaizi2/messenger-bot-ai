@@ -53,7 +53,7 @@ class ActionHandler
         $this->config        = $config;
         $this->ai            = new AI();
         $this->messenger    = new Messenger();
-        $this->input        = json_decode(Messenger::get_input(), 1, 512, JSON_BIGINT_AS_STRING));
+        $this->input        = json_decode(Messenger::get_input(), 1, 512, JSON_BIGINT_AS_STRING);
     }
 
     public function run()
