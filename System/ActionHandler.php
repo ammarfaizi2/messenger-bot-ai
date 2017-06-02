@@ -48,6 +48,8 @@ class ActionHandler
 	public function __construct($this->config)
 	{
 		Messenger::setupWebhook(VALIDATION_TOKEN);
+		defined('data') or define('data',__DIR__ . '/data');
+		is_dir(data) or mkdir(data);
 		$this->config		= $this->config;
 		$this->ai			= new AI();
 		$this->messenger	= new Messenger();
@@ -56,7 +58,7 @@ class ActionHandler
 
 	public function run()
 	{
-
+		$this->action();
 	}
 
 	private function action()
@@ -69,9 +71,18 @@ class ActionHandler
 		            foreach ($value['messaging'] as $value2) {
 		                $to         = $value2['sender']['id'];
 		                $message    = $value2['message']['text'];
-		                $st 		= $this->ai->prepare();
-		                $reply_msg  = $message;
-						print $this->messenger->send_message($to, $reply_msg);
+		                $st 		= $this->ai->prepare($message, $this->messenger->get_sender_name($to));
+		                if ($st->execute()) {
+		                	$reply_msg  = $st->fetch_reply();
+		                	if (is_array($reply_msg)) {
+		                		print $this->messenger->send_message($to, $reply_msg[1]);
+		                		print $this->messenger->send_image($to, $reply_msg[0]);
+		                	} else {
+		                		print $this->messenger->send_message($to, $reply_msg);
+		                	}
+		                } else {
+		                	$this->messenger->send_message($to, "Mohon maaf saya belum paham \"{$message}\"");
+		                }
 		            }
 		        }
 		    }
