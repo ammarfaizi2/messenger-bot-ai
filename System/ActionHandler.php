@@ -53,7 +53,7 @@ class ActionHandler
         $this->config        = $config;
         $this->ai            = new AI();
         $this->messenger    = new Messenger();
-        $this->input        = json_decode(Messenger::get_input(), 1);
+        $this->input        = json_decode(Messenger::get_input(), 1, 512, JSON_BIGINT_AS_STRING));
     }
 
     public function run()
@@ -75,15 +75,15 @@ class ActionHandler
                         if ($st->execute()) {
                             $reply_msg  = $st->fetch_reply();
                             if (is_array($reply_msg)) {
-                                print $this->messenger->send_message($to, $reply_msg[1]);
-                                print $this->messenger->send_image($to, $reply_msg[0]);
+                                print_r($this->messenger->send_message($to, $reply_msg[1]));
+                                print_r($this->messenger->send_image($to, $reply_msg[0]));
                             } elseif (empty($reply_msg)) {
-                                print $this->messenger->send_message($to, "Mohon maaf saya belum paham \"{$message}\".");
+                                print_r($this->messenger->send_message($to, "Mohon maaf saya belum paham \"{$message}\"."));
                             } else {
-                                print $this->messenger->send_message($to, $reply_msg);
+                                print_r($this->messenger->send_message($to, $reply_msg));
                             }
                         } else {
-                            print $this->messenger->send_message($to, "Mohon maaf saya belum paham \"{$message}\".");
+                            print_r($this->messenger->send_message($to, "Mohon maaf saya belum paham \"{$message}\"."));
                         }
                     }
                 }
