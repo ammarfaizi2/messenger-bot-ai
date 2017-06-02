@@ -1,18 +1,17 @@
 {
     "name": "root/nic",
+    "description": "Bot Messenger",
+    "type": "Project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ammar Faizi",
             "email": "ammarfaizi2@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-    	"ammarfaizi2/messenger": "1.*",
-    	"ammarfaizi2/ai": "2.*"
-    },
-    "autoload":{
-    	"psr-4":{
-    		"System\\": "System/"
-    	}
+    	"ammarfaizi2/ai": "*",
+    	"ammarfaizi2/messenger": "*"
     }
 }
