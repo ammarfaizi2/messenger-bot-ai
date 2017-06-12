@@ -53,7 +53,31 @@ class ActionHandler
         $this->config        = $config;
         $this->ai            = new AI();
         $this->messenger    = new Messenger();
-        $this->input        = json_decode(Messenger::get_input(), 1, 512, JSON_BIGINT_AS_STRING);
+        $this->input        = json_decode('{
+    "object": "page",
+    "entry": [
+        {
+            "id": "800281320073271",
+            "time": 1497129711555,
+            "messaging": [
+                {
+                    "sender": {
+                        "id": "1477897602284998"
+                    },
+                    "recipient": {
+                        "id": "800281320073271"
+                    },
+                    "timestamp": 1497129711441,
+                    "message": {
+                        "mid": "mid.$cAAKNKTBrcjZixSe_UVck-J2d4UV9",
+                        "seq": 3146004,
+                        "text": "test"
+                    }
+                }
+            ]
+        }
+    ]
+}', 1, 512, JSON_BIGINT_AS_STRING);
     }
 
     public function run()
